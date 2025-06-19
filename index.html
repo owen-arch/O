@@ -210,7 +210,24 @@
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
 
-     
+        <script>
+  let inputBuffer = "";
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key.length === 1) {
+      inputBuffer += event.key;
+
+      if (inputBuffer.includes("1234")) {
+        window.location.href = "admin.html"; // يجب أن تنشئ هذا الملف
+        inputBuffer = "";
+      }
+
+      if (inputBuffer.length > 6) {
+        inputBuffer = inputBuffer.slice(-6);
+      }
+    }
+  });
+</script>
 
     </body>
 </html>
