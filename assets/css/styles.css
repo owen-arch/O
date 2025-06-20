@@ -499,10 +499,11 @@ img {
 
 }
 .contact__input{
-    transition: 0.5s;
+  transition: 0.5s;
 }
+
 .contact__input:focus{
-    border: solid 1px crimson;
+  border: solid 1px crimson;
 }
 
 
