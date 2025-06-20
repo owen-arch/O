@@ -498,10 +498,10 @@ img {
     color: crimson;
 
 }
-inputs{
+.contact__input{
     transition: 0.5s;
 }
-inputs:focus{
+.contact__input:focus{
     border: solid 1px crimson;
     
 }
