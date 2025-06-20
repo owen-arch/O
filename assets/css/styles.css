@@ -498,6 +498,12 @@ img {
     color: crimson;
 
 }
-
+inputs{
+    transition: 0.5s;
+}
+inputs:focus{
+    border: solid 1px crimson;
+    
+}
 
 
